@@ -8,7 +8,8 @@
  */
 body{
   margin:0em;
-  background-color: antiquewhite;
+ 
+ 
 }
 
 
@@ -42,6 +43,7 @@ background-image: url(../background.jpeg);
       padding-left: 0em;
     }
   }
+ 
   .topnav a {
     float: left;
     color:antiquewhite;
@@ -66,9 +68,9 @@ background-image: url(../background.jpeg);
     color:#950740;
     padding-top: 1em;
     font-size: 2em;
-    background-color: antiquewhite;
+  
   }
-  .flex-container {
+  .flex-container1 {
     display: flex;
     background-color: #191817;
     align-items: center;
@@ -79,10 +81,98 @@ background-image: url(../background.jpeg);
     padding: 3em;
 }
   
-  .flex-container > div {
+  .flex-container1 > div {
    
     margin: 10px;
     color: antiquewhite;
     padding: 20px;
     font-size: 20px;
   }
+  .thirdcontainer h2{
+    text-align: center;  
+    color: #950740;
+    padding-top: 2em;
+}
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color:white;
+  padding: 10px;
+  justify-items: center;
+}
+
+.grid-container > button {
+  background-color: #191817;
+    /* border: 2px solid #950740; */
+    text-align: center;
+    font-size: 20px;
+    color: wheat;
+    margin: 10px;
+    padding: 1em;
+}
+
+
+.contact {
+  text-align: center;
+  color: #950740;
+  
+}
+label {
+cursor: pointer;
+	color: white;
+	display: block;
+	margin: 3px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #FF4500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+   
+}
+
+input[type=submit]:hover {
+  background-color: #950740;
+}
+
+.container {
+ 
+  padding:60px 120px;
+}
+.abt{
+  background-color:#950740 ;
+ background-image: url(https://cdn.wallpapersafari.com/64/66/2PEjSK.png);
+
+}
+.flex-container {
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+}
+.flex-container > div {
+  background-color: white;
+  padding:5px 40px;
+  font-size: 11px;
+  width: 50%;
+}
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: #950740;
+  color: white;
+}
